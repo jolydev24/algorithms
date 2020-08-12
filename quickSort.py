@@ -4,7 +4,6 @@ def qsort(arr):
     else:
         # Pivot of array.
         pivot = arr[0]
-
         less = [i for i in arr[1:] if i <= pivot]  # All before pivot.
         greater = [i for i in arr[1:] if i > pivot]  # All after pivot.
 
